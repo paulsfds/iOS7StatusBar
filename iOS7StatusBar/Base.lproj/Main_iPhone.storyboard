@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2oz-tf-ZUu">
+    <dependencies>
+        <deployment defaultVersion="1552" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="z6M-ks-b5d">
+            <objects>
+                <viewController id="2oz-tf-ZUu" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Skf-3a-bb6"/>
+                        <viewControllerLayoutGuide type="bottom" id="hBv-Ie-pBP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Obo-I4-uXB">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Jm-Fp-JIV">
+                                <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <outlet property="delegate" destination="2oz-tf-ZUu" id="P7b-fi-l5o"/>
+                                </connections>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="4Jm-Fp-JIV" firstAttribute="leading" secondItem="Obo-I4-uXB" secondAttribute="leading" id="3jh-SF-Gd1"/>
+                            <constraint firstAttribute="bottom" secondItem="4Jm-Fp-JIV" secondAttribute="bottom" id="Fw2-Vv-QX4"/>
+                            <constraint firstAttribute="trailing" secondItem="4Jm-Fp-JIV" secondAttribute="trailing" id="OuQ-Jy-QgC"/>
+                            <constraint firstItem="4Jm-Fp-JIV" firstAttribute="top" secondItem="Skf-3a-bb6" secondAttribute="bottom" id="qK9-Ci-fWn"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="webView" destination="4Jm-Fp-JIV" id="zdv-2C-5tR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d90-B8-nHb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="218" y="352"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

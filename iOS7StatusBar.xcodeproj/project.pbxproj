@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A11EC58417FB937100D27112 /* grio_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = A11EC58317FB937100D27112 /* grio_logo.png */; };
+		A1C987CA17FB912300D012F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1C987C917FB912300D012F3 /* Foundation.framework */; };
+		A1C987CC17FB912300D012F3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1C987CB17FB912300D012F3 /* CoreGraphics.framework */; };
+		A1C987CE17FB912300D012F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1C987CD17FB912300D012F3 /* UIKit.framework */; };
+		A1C987D417FB912300D012F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A1C987D217FB912300D012F3 /* InfoPlist.strings */; };
+		A1C987D617FB912300D012F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C987D517FB912300D012F3 /* main.m */; };
+		A1C987DA17FB912300D012F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C987D917FB912300D012F3 /* AppDelegate.m */; };
+		A1C987DD17FB912300D012F3 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1C987DB17FB912300D012F3 /* Main_iPhone.storyboard */; };
+		A1C987E017FB912300D012F3 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1C987DE17FB912300D012F3 /* Main_iPad.storyboard */; };
+		A1C987E317FB912300D012F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C987E217FB912300D012F3 /* ViewController.m */; };
+		A1C987E517FB912300D012F3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1C987E417FB912300D012F3 /* Images.xcassets */; };
+		A1C987EC17FB912400D012F3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1C987EB17FB912400D012F3 /* XCTest.framework */; };
+		A1C987ED17FB912400D012F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1C987C917FB912300D012F3 /* Foundation.framework */; };
+		A1C987EE17FB912400D012F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1C987CD17FB912300D012F3 /* UIKit.framework */; };
+		A1C987F617FB912400D012F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A1C987F417FB912400D012F3 /* InfoPlist.strings */; };
+		A1C987F817FB912400D012F3 /* iOS7StatusBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C987F717FB912400D012F3 /* iOS7StatusBarTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1C987EF17FB912400D012F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1C987BE17FB912300D012F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1C987C517FB912300D012F3;
+			remoteInfo = iOS7StatusBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A11EC58317FB937100D27112 /* grio_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grio_logo.png; sourceTree = "<group>"; };
+		A1C987C617FB912300D012F3 /* iOS7StatusBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS7StatusBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1C987C917FB912300D012F3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A1C987CB17FB912300D012F3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A1C987CD17FB912300D012F3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A1C987D117FB912300D012F3 /* iOS7StatusBar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS7StatusBar-Info.plist"; sourceTree = "<group>"; };
+		A1C987D317FB912300D012F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A1C987D517FB912300D012F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A1C987D717FB912300D012F3 /* iOS7StatusBar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS7StatusBar-Prefix.pch"; sourceTree = "<group>"; };
+		A1C987D817FB912300D012F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A1C987D917FB912300D012F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A1C987DC17FB912300D012F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		A1C987DF17FB912300D012F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		A1C987E117FB912300D012F3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A1C987E217FB912300D012F3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A1C987E417FB912300D012F3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A1C987EA17FB912400D012F3 /* iOS7StatusBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS7StatusBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1C987EB17FB912400D012F3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A1C987F317FB912400D012F3 /* iOS7StatusBarTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS7StatusBarTests-Info.plist"; sourceTree = "<group>"; };
+		A1C987F517FB912400D012F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A1C987F717FB912400D012F3 /* iOS7StatusBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS7StatusBarTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1C987C317FB912300D012F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1C987CC17FB912300D012F3 /* CoreGraphics.framework in Frameworks */,
+				A1C987CE17FB912300D012F3 /* UIKit.framework in Frameworks */,
+				A1C987CA17FB912300D012F3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1C987E717FB912400D012F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1C987EC17FB912400D012F3 /* XCTest.framework in Frameworks */,
+				A1C987EE17FB912400D012F3 /* UIKit.framework in Frameworks */,
+				A1C987ED17FB912400D012F3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1C987BD17FB912300D012F3 = {
+			isa = PBXGroup;
+			children = (
+				A1C987CF17FB912300D012F3 /* iOS7StatusBar */,
+				A1C987F117FB912400D012F3 /* iOS7StatusBarTests */,
+				A1C987C817FB912300D012F3 /* Frameworks */,
+				A1C987C717FB912300D012F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1C987C717FB912300D012F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1C987C617FB912300D012F3 /* iOS7StatusBar.app */,
+				A1C987EA17FB912400D012F3 /* iOS7StatusBarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1C987C817FB912300D012F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1C987C917FB912300D012F3 /* Foundation.framework */,
+				A1C987CB17FB912300D012F3 /* CoreGraphics.framework */,
+				A1C987CD17FB912300D012F3 /* UIKit.framework */,
+				A1C987EB17FB912400D012F3 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1C987CF17FB912300D012F3 /* iOS7StatusBar */ = {
+			isa = PBXGroup;
+			children = (
+				A1C987D817FB912300D012F3 /* AppDelegate.h */,
+				A1C987D917FB912300D012F3 /* AppDelegate.m */,
+				A1C987DB17FB912300D012F3 /* Main_iPhone.storyboard */,
+				A1C987DE17FB912300D012F3 /* Main_iPad.storyboard */,
+				A1C987E117FB912300D012F3 /* ViewController.h */,
+				A1C987E217FB912300D012F3 /* ViewController.m */,
+				A1C987E417FB912300D012F3 /* Images.xcassets */,
+				A1C987D017FB912300D012F3 /* Supporting Files */,
+			);
+			path = iOS7StatusBar;
+			sourceTree = "<group>";
+		};
+		A1C987D017FB912300D012F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A11EC58317FB937100D27112 /* grio_logo.png */,
+				A1C987D117FB912300D012F3 /* iOS7StatusBar-Info.plist */,
+				A1C987D217FB912300D012F3 /* InfoPlist.strings */,
+				A1C987D517FB912300D012F3 /* main.m */,
+				A1C987D717FB912300D012F3 /* iOS7StatusBar-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A1C987F117FB912400D012F3 /* iOS7StatusBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1C987F717FB912400D012F3 /* iOS7StatusBarTests.m */,
+				A1C987F217FB912400D012F3 /* Supporting Files */,
+			);
+			path = iOS7StatusBarTests;
+			sourceTree = "<group>";
+		};
+		A1C987F217FB912400D012F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1C987F317FB912400D012F3 /* iOS7StatusBarTests-Info.plist */,
+				A1C987F417FB912400D012F3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1C987C517FB912300D012F3 /* iOS7StatusBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1C987FB17FB912400D012F3 /* Build configuration list for PBXNativeTarget "iOS7StatusBar" */;
+			buildPhases = (
+				A1C987C217FB912300D012F3 /* Sources */,
+				A1C987C317FB912300D012F3 /* Frameworks */,
+				A1C987C417FB912300D012F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOS7StatusBar;
+			productName = iOS7StatusBar;
+			productReference = A1C987C617FB912300D012F3 /* iOS7StatusBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1C987E917FB912400D012F3 /* iOS7StatusBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1C987FE17FB912400D012F3 /* Build configuration list for PBXNativeTarget "iOS7StatusBarTests" */;
+			buildPhases = (
+				A1C987E617FB912400D012F3 /* Sources */,
+				A1C987E717FB912400D012F3 /* Frameworks */,
+				A1C987E817FB912400D012F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1C987F017FB912400D012F3 /* PBXTargetDependency */,
+			);
+			name = iOS7StatusBarTests;
+			productName = iOS7StatusBarTests;
+			productReference = A1C987EA17FB912400D012F3 /* iOS7StatusBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1C987BE17FB912300D012F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Paul Wong";
+				TargetAttributes = {
+					A1C987E917FB912400D012F3 = {
+						TestTargetID = A1C987C517FB912300D012F3;
+					};
+				};
+			};
+			buildConfigurationList = A1C987C117FB912300D012F3 /* Build configuration list for PBXProject "iOS7StatusBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1C987BD17FB912300D012F3;
+			productRefGroup = A1C987C717FB912300D012F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1C987C517FB912300D012F3 /* iOS7StatusBar */,
+				A1C987E917FB912400D012F3 /* iOS7StatusBarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1C987C417FB912300D012F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1C987E017FB912300D012F3 /* Main_iPad.storyboard in Resources */,
+				A11EC58417FB937100D27112 /* grio_logo.png in Resources */,
+				A1C987E517FB912300D012F3 /* Images.xcassets in Resources */,
+				A1C987DD17FB912300D012F3 /* Main_iPhone.storyboard in Resources */,
+				A1C987D417FB912300D012F3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1C987E817FB912400D012F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1C987F617FB912400D012F3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1C987C217FB912300D012F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1C987E317FB912300D012F3 /* ViewController.m in Sources */,
+				A1C987DA17FB912300D012F3 /* AppDelegate.m in Sources */,
+				A1C987D617FB912300D012F3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1C987E617FB912400D012F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1C987F817FB912400D012F3 /* iOS7StatusBarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1C987F017FB912400D012F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1C987C517FB912300D012F3 /* iOS7StatusBar */;
+			targetProxy = A1C987EF17FB912400D012F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A1C987D217FB912300D012F3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1C987D317FB912300D012F3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A1C987DB17FB912300D012F3 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1C987DC17FB912300D012F3 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		A1C987DE17FB912300D012F3 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1C987DF17FB912300D012F3 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		A1C987F417FB912400D012F3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1C987F517FB912400D012F3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1C987F917FB912400D012F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1C987FA17FB912400D012F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1C987FC17FB912400D012F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS7StatusBar/iOS7StatusBar-Prefix.pch";
+				INFOPLIST_FILE = "iOS7StatusBar/iOS7StatusBar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A1C987FD17FB912400D012F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS7StatusBar/iOS7StatusBar-Prefix.pch";
+				INFOPLIST_FILE = "iOS7StatusBar/iOS7StatusBar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A1C987FF17FB912400D012F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOS7StatusBar.app/iOS7StatusBar";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS7StatusBar/iOS7StatusBar-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iOS7StatusBarTests/iOS7StatusBarTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A1C9880017FB912400D012F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOS7StatusBar.app/iOS7StatusBar";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS7StatusBar/iOS7StatusBar-Prefix.pch";
+				INFOPLIST_FILE = "iOS7StatusBarTests/iOS7StatusBarTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1C987C117FB912300D012F3 /* Build configuration list for PBXProject "iOS7StatusBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1C987F917FB912400D012F3 /* Debug */,
+				A1C987FA17FB912400D012F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1C987FB17FB912400D012F3 /* Build configuration list for PBXNativeTarget "iOS7StatusBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1C987FC17FB912400D012F3 /* Debug */,
+				A1C987FD17FB912400D012F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1C987FE17FB912400D012F3 /* Build configuration list for PBXNativeTarget "iOS7StatusBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1C987FF17FB912400D012F3 /* Debug */,
+				A1C9880017FB912400D012F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1C987BE17FB912300D012F3 /* Project object */;
+}
